@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+.upload{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.addCV {
+    margin: 0;
+}
+
+.pdfPreview {
+    width: 100px;
+    cursor: pointer;    
+}
+
+.previewContainer {
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-left: -20px;
+}
+.section__iconBin{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.errorMessage{
+    padding-top: 10px;
+    text-align: justify;
+    color:red;
+}
+

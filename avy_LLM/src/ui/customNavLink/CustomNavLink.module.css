@@ -1,0 +1,27 @@
+.navLink {
+  display: flex;
+  width: 16vw;
+  height: 50px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-secondary-color-color);
+  gap: 15px;
+  margin-bottom: 10px;
+  font-family: var(--main-font-font-family);
+  padding-left: 5px;
+}
+
+.active {
+  display: flex;
+  width: 16vw;
+  height: 50px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-primary-color-color);
+  gap: 15px;
+  border-radius: 10px;
+  background-color: var( --active-background-color);
+  margin-bottom: 10px;
+  font-family: var(--main-font-font-family);
+  padding-left: 5px;
+}

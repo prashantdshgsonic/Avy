@@ -1,0 +1,13 @@
+.iconButton {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.iconButton:hover{
+    transform: scale(1.2);
+}

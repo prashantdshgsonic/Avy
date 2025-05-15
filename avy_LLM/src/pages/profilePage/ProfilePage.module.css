@@ -1,0 +1,26 @@
+.profileNav {
+  padding: 3% 3%;
+  display: flex;
+  gap: 10px;
+}
+.defaultButton {
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: var(--text-headers-color);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.activeButton {
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--text-paragraph-color-toggle-background-color);
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.dashboardWrapper {
+  height: calc(100vh - 80px);
+  width: calc(100vw - 20vw);
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.dashboardWrapper h1 {
+  color: var(--text-headers-color);
+  font-family: var(--main-font-font-family);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.courseType {
+  color: var(--text-headers-color);
+  font-family: var(--main-font-font-family);
+  /* margin-bottom: 2%; */
+}
+
+.dashboardContentWrapper {
+  display: flex;
+  gap: 3%;
+  margin-top: 4%;
+}
+
+.dashboardContent {
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.indicatorsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* margin-bottom: 5%; */
+}
+
+.courseCardsWrapper {
+  width: 100%;
+}

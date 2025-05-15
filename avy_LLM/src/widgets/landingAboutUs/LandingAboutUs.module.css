@@ -1,0 +1,70 @@
+.aboutUsWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.aboutUsContainer {
+  width: 1440px;
+  padding: 50px 140px 90px ;
+}
+.aboutUsInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutUsText {
+  width: 577px;
+}
+.aboutUsText h3 {
+  margin-bottom: 32px;
+  font-family: var(--landing-font-family);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 56px;
+  color: var(--lending-text-headers-color);
+}
+.aboutUsText p {
+  font-family: var(--landing-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: black;
+}
+.aboutUsText span {
+  font-family: var(--landing-font-family);
+  color: var(--lending-text-headers-color);
+  font-weight: 900;
+}
+.aboutUsCards {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUsCard {
+  width: 340px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.aboutUsCard img{
+  height: 87px;
+}
+.aboutUsCard h3 {
+  margin: 32px 0px 20px 0px;
+  font-family: var(--landing-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--lending-text-headers-color);
+}
+.aboutUsCard p {
+  font-family: var(--landing-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+}

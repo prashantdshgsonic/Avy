@@ -1,0 +1,19 @@
+.toggleBtn {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.toggleBtn svg {
+    z-index: 0;
+}
+
+.toggleDown {
+    transform: rotate(360deg);
+    transition: all .3s ease;
+}
+
+.toggleUp {
+    transform: rotate(180deg);
+    transition: all .3s ease;
+}

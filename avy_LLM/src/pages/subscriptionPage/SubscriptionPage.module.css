@@ -1,0 +1,167 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #dde1ff;
+}
+.pricingContainer {
+  width: 1040px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pricingContainer h2 {
+  margin-bottom: 60px;
+  font-family: var(--landing-font-family);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.pricingCards {
+  display: flex;
+  justify-content: space-between;
+}
+.pricingCard {
+  box-sizing: border-box;
+  position: relative;
+  width: 320px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: 5px solid transparent;
+}
+.pricingCard:hover {
+  border: 5px solid var(--text-rewards-color-color);
+}
+.pricingCard:hover h3 {
+  color: black;
+}
+.pricingCard:hover button {
+  border: none;
+  background: var(--text-rewards-color-color);
+  color: black;
+  background-clip: inherit;
+  -webkit-background-clip: inherit;
+  -webkit-text-fill-color: inherit;
+}
+.pricingCardText h3 {
+  font-family: var(--landing-font-family);
+  color: var(--text-rewards-color-color);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.spanPrice {
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.priceText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15%;
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.trail {
+  text-align: center;
+  background: var(
+    --gradient-1,
+    linear-gradient(
+      120deg,
+      #44c2db 13.39%,
+      #1da6c2 36.39%,
+      #5d5ca6 55.61%,
+      #5b2682 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pricingCard ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+}
+.pricingCard ul li {
+  display: flex;
+  gap: 15px;
+}
+.pricingCard ul li p {
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pricingButton a {
+  text-decoration: none;
+}
+.pricingButton {
+  width: 185px;
+  height: 55px;
+  border-radius: 32px;
+  border: 1px solid #44c2db;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--landing-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  background: var(
+    --gradient-1,
+    linear-gradient(
+      120deg,
+      #44c2db 13.39%,
+      #1da6c2 36.39%,
+      #875ca6 55.61%,
+      #5b2682 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.1s ease-in-out;
+}
+.pricingButton:active {
+  transform: scale(0.87);
+}
+.bestOption {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--text-rewards-color-color);
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}

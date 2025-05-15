@@ -1,0 +1,9 @@
+.deleteGameIcon{
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  cursor: pointer;
+}
+.deleteGameIcon:active{
+  scale: .8;
+}

@@ -1,0 +1,27 @@
+.offerCard {
+    font-family: var(--main-font-font-family);
+    border-radius: 10px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+    align-items: center;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.title {
+    color: var(--text-primary-color-color);
+    text-align: center;
+}
+
+.category {
+    color: var(--text-secondary-color-color);
+}

@@ -1,0 +1,16 @@
+.pages {
+    position: fixed;
+    top: 80px; 
+    left: 20vw;
+    width: 80vw;
+    height: calc(100% - 80px);
+    padding: 20px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}

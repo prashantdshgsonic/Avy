@@ -1,0 +1,120 @@
+.courseFormWrapper {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
+  font-family: var(--main-font-font-family);
+}
+
+.courseTitle {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.formWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.courseInfo {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.formWrapper input {
+  height: 40px;
+}
+
+.formWrapper textarea {
+  width: 100%;
+  height: 70px;
+  resize: none;
+  padding: 5px;
+  border: none;
+}
+
+.courseImage {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.courseImg {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.dropDownWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  gap: 2%;
+}
+
+.dropDownWrapper select {
+  width: 100%;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.choose {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding-left: 3px;
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.def {
+  display: none;
+}
+.activeCategory {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+}
+.activeLevel {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+}
+.category {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.category:hover {
+  background-color: rgba(79, 173, 207, 0.433);
+}
+.errorP{
+  position: absolute;
+  color: red;
+  font-size: 12px;
+}
+
+.selectField {
+  border: none;
+  padding: 10px 0;
+}

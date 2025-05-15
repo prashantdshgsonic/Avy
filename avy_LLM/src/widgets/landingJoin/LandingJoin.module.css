@@ -1,0 +1,60 @@
+.landingJoinWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.landingJoinContainer {
+  position: relative;
+  z-index: 2;
+  width: 1440px;
+  padding: 120px 140px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.joinText {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 500px;
+}
+.joinText span {
+  font-family: var(--landing-font-family);
+  color: var(--text-rewards-color-color);
+}
+.joinText h1 {
+  font-family: var(--landing-font-family);
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 110%;
+}
+.joinText p {
+  font-family: var(--landing-font-family);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.joinButton {
+  width: 355px;
+  height: 52px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  background-color: var(--text-rewards-color-color);
+  font-family: var(--landing-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  transition: transform 0.1s ease-in-out;
+}
+.joinButton:active {
+  transform: scale(0.87);
+}
+.divider {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

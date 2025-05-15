@@ -1,0 +1,87 @@
+.navWrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  background-color: #fff;
+}
+.navContainer {
+  z-index: 2;
+  width: 1440px;
+  padding: 0px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 61px;
+  height: 61px;
+}
+.landingLinks ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 45px;
+}
+.landingLinks button {
+  font-family: var(--landing-font-family);
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.landingButtons {
+  display: flex;
+  gap: 16px;
+}
+.landingButtonV1 {
+  width: 125px;
+  height: 45px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--text-rewards-color-color);
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  transition: transform 0.1s ease-in-out;
+}
+.landingButtonV2 {
+  width: 125px;
+  height: 45px;
+  border-radius: 32px;
+  border: 1px solid #44c2db;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--landing-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  background: var(
+    --gradient-1,
+    linear-gradient(
+      120deg,
+      #44c2db 13.39%,
+      #1da6c2 36.39%,
+      #875ca6 55.61%,
+      #5b2682 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.1s ease-in-out;
+}
+.landingButtonV1:active,
+.landingButtonV2:active {
+  transform: scale(0.87);
+}

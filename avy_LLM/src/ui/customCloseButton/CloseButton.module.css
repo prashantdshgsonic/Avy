@@ -1,0 +1,25 @@
+.closeButton {
+    border: none;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    color: gray;
+    cursor: pointer;
+    font-size: 22px;
+    
+    position: absolute; /*  relate gameContaner */
+    top: 30px;
+    right: 40px;
+    z-index: 100;
+    padding: 2px 5px 2px 5px;
+    transition: all 0.3s ease; 
+  };
+
+  .closeButton:hover {
+    transform: scale(1.1) rotate(0);
+  }
+
+  .closeButton:active {
+    transform: scale(0.9) rotate(0);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  }

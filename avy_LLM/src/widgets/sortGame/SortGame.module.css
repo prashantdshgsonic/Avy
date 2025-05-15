@@ -1,0 +1,90 @@
+.gameContainer {
+  background-color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+}
+.gameTitle {
+  font-family: var(--main-font-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--text-headers-color);
+}
+.gameContent {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.buttonsContainer {
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(2, 160px);
+  grid-template-rows: repeat(auto-fit, 35px);
+  row-gap: 20px;
+  column-gap: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  background-color: var(--text-rewards-color-color);
+  color: #000000;
+  cursor: grab;
+  border-radius: 10px;
+}
+.dropContainers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.conceptA,
+.conceptB {
+  display: grid;
+  grid-template-columns: repeat(3, 160px);
+  gap: 10px;
+  align-items: center;
+}
+.dropContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  border: 1px solid var(--text-paragraph-color-toggle-background-color);
+  color: #000000;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.dropContainerActive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  background-color: var(--text-rewards-color-color);
+  color: #000000;
+  cursor: grab;
+  border-radius: 10px;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.buttonSubmit{
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--text-paragraph-color-toggle-background-color);
+}

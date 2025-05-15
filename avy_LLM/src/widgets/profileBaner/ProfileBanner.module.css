@@ -1,0 +1,52 @@
+.profileBannerWrapper {
+  font-family: var(--main-font-font-family);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bgBanner {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 7%;
+}
+.userName {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  color: var(--text-headers-color);
+}
+.userName img {
+  margin-top: -9%;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 8px solid rgb(255, 255, 255);
+}
+.userAchievements {
+  display: flex;
+  gap: 70px;
+}
+.firstText{
+  font-weight: 600;
+  font-size: 18px;
+}
+.secondText{
+  color: var(--text-gray-colo);
+  font-size: 14px;
+}
+.awardsInfo{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}

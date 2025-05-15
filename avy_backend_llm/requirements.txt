@@ -1,0 +1,19 @@
+# Install portaudio
+# brew install portaudio(macOS)/ choco install portaudio(Windows) / scoop install portaudio(Windows)
+pyaudio
+Flask  # Web framework for building APIs.
+pymongo # MongoDB driver for data storage/retrieval.
+stomp.py # Messaging library for ActiveMQ integration.
+nltk # Text processing for tokenization.
+openai==0.28 # Access OpenAI GPT APIs.
+langchain-community # Tools for LLM-based applications.
+whisper # Speech-to-text transcription.
+python-dotenv  # Manage environment variables securely.
+pypdf # Pdf
+numpy # Numerical computations
+scipy # Computes cosine(voice) similarity
+torchaudio # Handles audio processing
+speechbrain # Provides the EncoderClassifier for voice embeddings
+sounddevice # Used for audio recording/playback
+wave # Writes WAV audio files
+

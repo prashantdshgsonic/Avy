@@ -1,0 +1,35 @@
+.pdfContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    /* width: 100%; */
+    /* width: auto; */
+    /* height: 100%; */
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compliteLesson {
+    color: #1560BD;
+}
+
+.compliteLesson:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.summary {
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.pdfIframe {
+    width: 100%;
+    height: 500px;
+
+}

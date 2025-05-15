@@ -1,0 +1,21 @@
+.detailsListWrapper {
+    background: #fff;
+    border-radius: 10px;
+    font-family: var(--main-font-font-family);
+    padding: 20px;
+}
+.detailsListWrapper h3 {
+    padding-bottom: 10px;
+}
+
+.detailsList {
+    display: flex;
+    align-items: flex-end;
+    color: var(--text-secondary-color-color);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.detailsList svg {
+    margin-right: 5px;
+}

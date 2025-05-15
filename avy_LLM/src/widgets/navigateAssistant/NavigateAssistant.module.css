@@ -1,0 +1,46 @@
+.navigateContainer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+.navigateIcon {
+    width: 68px;
+    height: 68px;
+}
+
+.navigateIcon:hover {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.navigateText {
+    margin-top: 4%;
+    align-self: center;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.active {
+    animation: pulse 1.5s infinite ease-in-out;
+    /* box-shadow: 0 0 15px rgba(0, 123, 255, 0.7); */
+}

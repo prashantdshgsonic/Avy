@@ -1,0 +1,140 @@
+:root {
+    --lightgrey: rgb(177, 177, 177);
+    --grey-primary: rgb(43, 43, 43);
+    --background-color: aliceblue;
+  }
+  
+  body {
+    overflow-y: scroll;
+    background-color: var(--background-color);
+    margin: 0;
+  }
+
+  /* .section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+   
+  .userCard_wrapper{
+    height: 125px; 
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid rgba(181, 180, 180, 0.5);
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 15px; /*gap between*/
+  }
+
+  .userCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;    
+  }
+
+  @media (max-width: 800px) {
+    .usersWrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .userCard {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .userInfo{  
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .firstText{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  
+  .secondText{
+    color: var(--text-gray-colo);
+    font-size: 14px;
+    line-height: 1.5
+  }
+
+  .btn_wrapper {
+    width: 50%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .btn_wrapper span{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .btn{
+  padding: 5px;
+  width: 50%;
+  max-width: 100px;
+  height: 33px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+  background: var(--background-gradient-background-image);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: var(--main-font-font-family);
+  font-size: 14px;
+  font-weight: 400;
+    @media (max-width: 900px){
+      width: 100%; 
+    }
+  }
+
+  .disabledBtn {
+    width: 50%;
+    max-width: 100px;
+    height: 33px;
+    border-radius: 12px;
+    border: none;
+    background: var(--background-gradient-background-image);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+    filter: grayscale(80%);
+    cursor: not-allowed;
+    @media (max-width: 900px){
+      width: 100%;  ;
+    } 
+  }
+
+  .successMessage {
+    color: green;
+    align-self: center;
+  }
+
+  .errorRespond {
+    width: 100%;
+    color: red;
+    align-self: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  

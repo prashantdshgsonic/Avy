@@ -1,0 +1,7 @@
+.lineChart h3 {
+  color: var(--text-headers-color);
+  margin-bottom: 10px;
+}
+.lineChart {
+  width: 600px;
+}

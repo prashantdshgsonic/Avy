@@ -1,0 +1,23 @@
+/*temporary styles*/
+.userCard {
+    border: 1px solid purple;
+    width: fit-content;
+}
+
+.image {
+    width: 120px;
+    border-radius: 100%;
+}
+
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {}
+
+.email {}
+
+.jobTitle {}

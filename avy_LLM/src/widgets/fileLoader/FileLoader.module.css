@@ -1,0 +1,44 @@
+.fileLoaderContainer {
+    max-width: 100%;
+    min-width: 280px;
+    height: 260px;
+    border: 1px solid #E5E7E8;
+    border-radius: 4px;
+    padding: 15px 10px;
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+}
+
+.fileLoaderTitle {
+    font-size: 18px;
+    line-height: 1;
+    color: #191B1C;
+    font-weight: 600;
+}
+
+.fileLoaderInputText {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.fileLoaderInputText label {
+    font-weight: 500;
+    color: #005CE8;
+    cursor: pointer;
+}
+
+.fileLoaderInput {
+    display: none;
+}
+
+.loadedFileName {
+    /* height: 15px; */
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,33 @@
+.moduleInfoWrapper {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: var(--main-font-font-family);
+    border: 1.5px solid rgba(128, 128, 128, 0.389);
+}
+
+.headersBlock {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.titleBlock h4 {
+}
+
+.titleBlock p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.itemsBlock {
+    padding: 10px 0;
+}
+
+.lessonTile {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}

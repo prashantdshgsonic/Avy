@@ -1,0 +1,175 @@
+.gameWrapper {
+  font-family: var(--main-font-font-family);
+  padding: 25px;
+  width: 750px;
+  height: fit-content;
+  border-radius: 16px;
+  border: 1px solid black;
+  background-color: #f0f8ff;
+}
+.gameWrapper h2 {
+  font-size: 24px;
+  color: var(--text-headers-color);
+}
+.gameWrapper h2 span{
+  margin-left: 20px;
+  color: var(--text-paragraph-color-toggle-background-color);
+}
+
+.gameContainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.gamePanel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.helpBtn {
+  width: 98%;
+  margin-bottom: 10px;
+  height: 27px;
+  background-color: brown;
+  border-radius: 5px;
+  border: none;
+
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+.wrongWord {
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.664);
+  animation: scaleAndColorChange 0.5s ease-in-out;
+}
+
+@keyframes scaleAndColorChange {
+  0% {
+    transform: scale(1);
+    background-color: rgba(255, 0, 0, 0.673);
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: rgba(255, 0, 0, 0.834);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(255, 0, 0, 0.75);
+  }
+}
+.lettersInput {
+  display: flex;
+  width: 98%;
+  height: 50px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  font-size: 18px;
+}
+.lettersBtn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 45px);
+  justify-content: center;
+  padding: 5px 40px;
+  width: 98%;
+}
+.lettersBtn button:active {
+  scale: 0.8;
+}
+.lettersBtn button {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+}
+.lettersBtn button:hover {
+  background-color: #875cb4;
+}
+.submitButtons {
+  display: flex;
+  width: 98%;
+  gap: 20px;
+}
+.enterBtn,
+.shuffleBtn {
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--background-gradient-background-image);
+
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.enterBtn:active,
+.shuffleBtn:active {
+  scale: 0.95;
+}
+.listAnswers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  gap: 10px;
+  overflow-y: scroll;
+}
+.listAnswers::-webkit-scrollbar {
+  width: 5px;
+}
+.listAnswers:hover::-webkit-scrollbar-thumb {
+  margin: 0 5px;
+  background-color: var(--text-paragraph-color-toggle-background-color);
+}
+.doneWordBtn {
+  width: 98%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #44c2db;
+
+  font-family: var(--main-font-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 10px;
+  transition: 1s box-shadow;
+  background: var(
+    --gradient-1,
+    linear-gradient(120deg, #44c2db 13.39%, #1da6c2 36.39%, #875ca6 55.61%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.submit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 200px;
+  height: 30px; 
+  border: none;
+  border-radius: 8px;
+  font-family: var(--main-font-font-family);
+  background: var(--text-rewards-color-color);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.submit:active{
+  scale: .9;
+}

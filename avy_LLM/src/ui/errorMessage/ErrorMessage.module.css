@@ -1,0 +1,5 @@
+.errorMessage {
+    font-family: var(--main-font-font-family);
+    font-size: 8;
+    color: var(--text-error-color-color);
+}

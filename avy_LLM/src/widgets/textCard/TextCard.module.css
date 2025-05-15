@@ -1,0 +1,62 @@
+.lessonCardWrapper {
+    min-width: 350px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--main-font-font-family);
+}
+
+.lessonCardHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--text-headers-color);
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.lessonCardHeader p {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.lessonCardcontent {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #D8E5FE;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+}
+
+.lessonCardcontent img {
+    width: 80px;
+    height: 80px;
+}
+
+.lessonCardcontent p {
+    /* text-align: justify; */
+    height: fit-content;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap;
+    /* let the text wrap preserving spaces */
+    hyphens: none;
+    margin-right: 10px;
+}
+
+.actionBtns {
+    display: flex;
+}

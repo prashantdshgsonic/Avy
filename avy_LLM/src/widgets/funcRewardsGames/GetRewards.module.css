@@ -1,0 +1,16 @@
+.stars {
+  display: flex;
+  gap: 12px;
+}
+.stars img:nth-child(2) {
+  margin-bottom: 70px;
+}
+.text p {
+  font-family: var(--main-font-font-family);
+  margin-top: 10px;
+}
+.text span {
+  font-family: var(--main-font-font-family);
+  font-weight: 600;
+  color: var(--text-rewards-color-color);
+}

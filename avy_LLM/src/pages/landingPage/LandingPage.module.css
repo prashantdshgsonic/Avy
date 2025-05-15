@@ -1,0 +1,56 @@
+.landingPageWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(
+    120deg,
+    #44c2db 13.39%,
+    #5aa1ca 31.69%,
+    #727bb6 55.12%,
+    #8164aa 74.89%,
+    #875ca6 86.61%
+  );
+}
+.socialMediaLinks {
+  width: 1440px;
+  height: 70px;
+  padding: 0 140px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 40px;
+}
+.joinEllipse1 {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  right: 80px;
+  width: 771px;
+  height: 771px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background: linear-gradient(
+    128deg,
+    rgba(255, 255, 255, 0.1) 15.05%,
+    rgba(255, 255, 255, 0) 85.91%
+  );
+}
+.joinEllipse2 {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  right: -150px;
+  width: 771px;
+  height: 771px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background: linear-gradient(
+    128deg,
+    rgba(255, 255, 255, 0.1) 15.05%,
+    rgba(255, 255, 255, 0) 85.91%
+  );
+}
+.privacyText{
+  text-align: center;
+  padding: 12px 0px;
+}

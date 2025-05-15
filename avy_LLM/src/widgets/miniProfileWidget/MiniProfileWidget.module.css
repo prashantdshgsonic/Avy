@@ -1,0 +1,33 @@
+.miniProfile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.miniProfile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.userInfo {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.userInfo img{
+  cursor: pointer;
+}
+.userRewards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-primary-color-color);
+  font-family: var(--main-font-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

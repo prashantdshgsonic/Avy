@@ -1,0 +1,8 @@
+.circleChart h3 {
+  color: var(--text-headers-color);
+  margin-bottom: 10px;
+}
+
+.circleChart {
+  width: 220px;
+}

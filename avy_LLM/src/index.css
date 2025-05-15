@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --main-font-font-family: "Inter", sans-serif;
+  --landing-font-family: "Nunito";
+  --text-primary-color-color: #875cb4;
+  --text-secondary-color-color: #76707b;
+  --text-completed-color-color: #009a50;
+  --text-rewards-color-color: #e8b604;
+  --text-headers-color: #3b2b5e;
+  --lending-text-headers-color: #7e6aad;
+  --text-gray-color: #959fa3;
+  --text-labels-color-color: #191b1c;
+  --text-error-color-color: rgb(241, 73, 73);
+  --text-paragraph-color-toggle-background-color: #727bb6;
+  --input-border-color: #d9e4ee;
+  --active-background-color: #ebd7ff;
+  --completed-background-color: #d2ffda;
+  --progress-background-color: #d9bcff;
+  --rewards-background-color: #fffdcb;
+  --background-gradient-background-image: linear-gradient(
+    to right,
+    #44c2db,
+    #24aee0,
+    #3c96de,
+    #657bd0,
+    #875cb4
+  );
+  --background-gradient-background-forms: linear-gradient(
+    120deg,
+    #44c2db 13.39%,
+    #5aa1ca 31.69%,
+    #727bb6 55.12%,
+    #8164aa 74.89%,
+    #875ca6 86.61%
+  );
+}

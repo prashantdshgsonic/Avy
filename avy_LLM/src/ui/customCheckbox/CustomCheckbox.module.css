@@ -1,0 +1,9 @@
+.checkbox {
+  padding: 3px 0px 7px 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var( --text-paragraph-color-toggle-background-color);
+  font-family: var(--main-font-font-family);
+}
+

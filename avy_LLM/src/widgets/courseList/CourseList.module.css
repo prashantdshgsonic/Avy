@@ -1,0 +1,62 @@
+.courseListWrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1100px;
+  border-left:1px solid var(--input-border-color);
+  border-right:1px solid var(--input-border-color);
+}
+.courseListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.courseListHeader button {
+  font-size: 16px;
+  font-weight: 600;
+  width: 180px;
+}
+.filterBar {
+  display: flex;
+  align-items: center;
+}
+.filterBar button {
+  background: transparent;
+  display: flex;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 0px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--main-font-font-family);
+  font-size: 18px;
+  font-weight: 500;
+}
+.customInput {
+  width: 340px;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+}
+.customInput input {
+  font-family: var(--main-font-font-family);
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.courseList {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  overflow-y: scroll;
+  gap: 5px;
+  background-color: white;
+  padding: 10px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}

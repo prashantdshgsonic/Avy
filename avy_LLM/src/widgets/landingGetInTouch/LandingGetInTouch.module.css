@@ -1,0 +1,72 @@
+.getInTouchWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: white;
+}
+.getInTouchContainer {
+  width: 1440px;
+  padding: 100px 140px;
+  text-align: center;
+}
+
+.getInTouchContainer h2 {
+  margin-bottom: 12px;
+  font-family: var(--landing-font-family);
+  color: var(--lending-text-headers-color);
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.getInTouchContainer p {
+  font-family: var(--landing-font-family);
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.getInTouchCards {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.getInTouchCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+  align-items: center;
+  width: 367px;
+  height: 258px;
+  border-radius: 8px;
+  background: var(
+    --j,
+    linear-gradient(
+      120deg,
+      #44c2db 13.39%,
+      #5aa1ca 31.69%,
+      #727bb6 55.12%,
+      #8164aa 74.89%,
+      #875ca6 86.61%
+    )
+  );
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.getInTouchCard h3 {
+  font-family: var(--landing-font-family);
+  color: var(--text-rewards-color-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.getInTouchCard p {
+  font-family: var(--landing-font-family);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}

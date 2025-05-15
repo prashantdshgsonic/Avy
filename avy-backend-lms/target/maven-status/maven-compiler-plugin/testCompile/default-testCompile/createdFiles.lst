@@ -1,0 +1,11 @@
+com\example\avyproject\AvyProjectApplicationTests.class
+com\example\avyproject\controller\AvyUserControllerTest.class
+com\example\avyproject\service\AwardServiceImplTest.class
+com\example\avyproject\service\TextLessonServiceImplTest.class
+com\example\avyproject\service\RoleServiceImplTest.class
+com\example\avyproject\service\ImageServiceImplTest.class
+com\example\avyproject\service\AuthServiceImplTest.class
+com\example\avyproject\service\AchievementServiceImplTest.class
+com\example\avyproject\controller\AdminUserControllerTest.class
+com\example\avyproject\service\AdminUserServiceImplTest.class
+com\example\avyproject\service\LocalImageServiceImplTest.class

@@ -1,0 +1,132 @@
+:root {
+  --lightgrey: rgb(177, 177, 177);
+  --grey-primary: rgb(43, 43, 43);
+  --background-color: aliceblue;
+}
+
+body {
+  overflow-y: scroll;
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 70%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.section__contentContainer {
+  padding: 20px;
+  width: 100%;
+  background-color: #ffff;
+}
+
+.section__header {
+  background-color: var(----background-color);
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.section__params {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px 0 70px;
+}
+
+.section__search {
+  font-size: 36px;
+}
+
+.message {
+  padding: 20px 70px;
+  /* align-self: center; */
+}
+
+.section__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 15px;
+  padding: 20px;
+}
+
+.section__userCard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid rgba(181, 180, 180, 0.5);
+  margin-bottom: 20px;
+}
+
+
+.userPhoto {
+  background-color: grey;
+  object-fit: cover; 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.firstText{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.secondText{
+  color: var(--text-gray-colo);
+  font-size: 14px;
+
+}
+
+.customInput {
+  width: 100%;
+  border: none;    
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 10px;
+
+  background: #f2f2f2;
+  padding: 10px;
+
+  font-size: clamp(10px, 1.5vw, 18px);
+  text-overflow: ellipsis;
+} 
+
+.customInput::placeholder {
+  color: rgba(128, 128, 128, 0.6);    
+}
+
+.customInput:focus {
+  border: 1px solid var(--text-gray-color);
+  background: #91d3fe32;
+  color: orange;
+  padding: 9px;
+}
+
+

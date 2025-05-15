@@ -1,0 +1,5 @@
+.offerListContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 275px));
+  row-gap: 50px;
+}

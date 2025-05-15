@@ -1,0 +1,52 @@
+.courseSelectorContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.courseSelectorWrapper {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    background-color: #e5e7e85f;
+
+}
+
+.courseSelectorCard {
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    transition: .5s box-shadow;
+    cursor: pointer;
+}
+
+.courseSelectorCard:hover {
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
+
+}
+
+.courseSelectorImage {
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    max-width: 120px;
+}
+
+.courseSelectorTitle {
+    font-family: var(--main-font-font-family);
+    color: var(--text-headers-color);
+    font-weight: 700;
+}

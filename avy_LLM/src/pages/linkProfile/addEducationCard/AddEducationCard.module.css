@@ -1,0 +1,86 @@
+:root {
+    --lightgrey: rgb(177, 177, 177);
+    --grey-primary: rgb(43, 43, 43);
+    --background-color: aliceblue;
+  }
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+   
+    width: 100%;
+    margin: auto;
+  }
+
+  .close {
+    align-self: flex-end;
+  }
+  
+  .experienceBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+  }
+
+  .remove {
+    align-self: flex-end;
+    padding-right: 8px;
+  }
+  
+  .formInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .formLabel{
+    font-size: 12px;
+    color: var(--lightgrey);
+    margin-bottom: -7px;
+  }
+
+  .btnSubmit {
+    align-self: flex-end;
+    background-color: var(--grey-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+.btnSubmit:hover {
+    background-color: #b02a37;
+  }
+
+  .btnAdd {
+    align-self: flex-start;
+    /* padding-left: 15px; */
+    /* text-decoration: underline; */
+    cursor: pointer;
+  }
+
+  .btnAdd:hover {
+    color: #0056b3;
+    
+  }
+  
+ 
+  .error{
+    font-size: 12px;
+    color: red;
+    margin-top: -5px;
+   }

@@ -1,0 +1,27 @@
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;  /* for chat bot */
+}
+
+.videoEndedMessage {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 15px;
+}
+
+.compliteLesson {
+    color: #1560BD; 
+}
+
+.compliteLesson:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.summary {
+    font-size: 14px;
+    text-align: justify;
+}

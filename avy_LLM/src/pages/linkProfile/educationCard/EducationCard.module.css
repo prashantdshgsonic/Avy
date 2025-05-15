@@ -1,0 +1,105 @@
+:root {
+    --lightgrey: rgb(177, 177, 177);
+    --grey-primary: rgb(43, 43, 43);
+    --background-color: aliceblue;
+  }
+  
+  .section__content{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .section__topwrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .section__iconwrapper {
+      display: flex;
+      gap: 15px;
+    
+    }
+  
+    .section__icon {
+      color: --grey-primary;
+    }
+  
+    .section__iconItem:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+    .section__icon {
+      display: flex;
+      gap: 10px;      
+    }
+    
+    .section__text {
+      gap: 15px;
+    }
+  
+    .section__position {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding-bottom: 10px;
+      /* border-bottom: 1px solid var(--lightgrey); */
+    }
+  
+    .section__position > p {
+      font-size: 14px;
+    }
+  
+    .section__headerwrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .section__icon {
+      align-self: flex-end;
+      cursor: pointer;
+    }
+
+    .section__time{
+      display: flex;
+      justify-content: flex-start;
+      gap: 5px;
+      padding-bottom: 5px;
+      box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.2);
+    }
+  
+    .section__time > span {
+      color: var(--lightgrey);      
+      font-size: 12px;
+    }
+  
+    
+    .section__bottomElem {
+      text-align: center;
+      border-top: 1px solid rgb(215, 212, 212);
+      cursor: pointer;
+      margin-bottom: -15px;
+      font-size: 12px;
+      padding-top: 5px;
+    }
+    
+    .section__text {    
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* show 2 strings */
+        -webkit-box-orient: vertical;
+        max-height: 3em; /* 2 strings */
+        transition: max-height 0.3s ease-in-out;      
+    }
+    
+    .section__text.expanded {
+      -webkit-line-clamp: unset;
+      max-height: 100%;
+    }
+    
+    
+    
+    
+    

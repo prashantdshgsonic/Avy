@@ -1,0 +1,69 @@
+.courseDetailsPageWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    min-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    opacity: .9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    padding: 20px;
+    opacity: .8;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 70%;
+    min-width: 600px;
+}
+
+.descriptionBlock,
+.modulesBlock {
+    border-radius: 10px 10px 0 0; 
+    padding: 30px;
+    background-color: #fff;
+}
+
+.descriptionBlock h3 {
+    padding: 5px 0;
+}
+.modulesBlock {
+    border-top: 1px solid grey;
+    border-radius: 0 0 10px 10px;
+}
+.modulesCards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.leftBar {
+    width: 30%;
+    min-width: 300px;
+}
+
+.actionsBlock {
+    padding: 20px 0;
+}
